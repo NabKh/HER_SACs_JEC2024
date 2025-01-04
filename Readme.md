@@ -37,8 +37,8 @@ The model expects an Excel file with the following columns:
 ## Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/her_prediction.git
-cd her_prediction
+git clone https://github.com/NabKh/HER_SACs_JEC2024.git
+cd HER_SACs_JEC2024
 ```
 
 2. Install requirements:
