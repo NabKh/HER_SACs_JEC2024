@@ -1,0 +1,31 @@
+# Core packages
+torch>=1.8.0
+numpy>=1.19.2
+scipy>=1.6.0
+
+# Data handling
+pandas>=1.2.3
+xlrd>=2.0.1
+
+# Visualization
+matplotlib>=3.3.4
+seaborn>=0.11.1
+
+# Machine learning utilities
+scikit-learn>=0.24.1
+
+# Optional but recommended
+jupyterlab>=3.0.0  # For notebook interface
+h5py>=3.1.0        # For saving large datasets
+tqdm>=4.64.0       # For progress bars
+tensorboard>=2.5.0  # For training visualization
+
+# Development tools (optional)
+pytest>=6.2.5      # For testing
+black>=21.5b2      # For code formatting
+flake8>=3.9.2      # For code linting
+isort>=5.9.1       # For import sorting
+
+# Documentation
+sphinx>=4.0.2      # For generating documentation
+sphinx-rtd-theme>=0.5.2  # Documentation theme
