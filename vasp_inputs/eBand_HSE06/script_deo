@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH -J AB2C4
+#SBATCH -N 10
+#SBATCH --ntasks-per-node=16
+#SBATCH -t 100:00:00
+#SBATCH -A snic2021-1-42
+
+mpprun /software/sse/manual/vasp/5.4.4.16052018/nsc1/vasp_std

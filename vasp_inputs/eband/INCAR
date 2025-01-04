@@ -1,0 +1,42 @@
+Collinear Magnetic Calculation
+ISPIN      =  2        (Spin polarised DFT)
+
+ 
+Global Parameters
+ISTART =  1            (Read existing wavefunction; if there --- ISTART = 0 and 1 for band and dos)
+ ENCUT  =  520        (Cut-off energy for plane wave basis set, in eV)
+PREC   =  Normal       (Precision level)
+LWAVE  = .FALSE.        (Write WAVECAR or not)
+LCHARG = .FALSE.        (Write CHGCAR or not)
+
+ISMEAR =  0            (Gaussian smearing; metals:1 ---- ISMEAR = 0  (-5 for energy calculation and dos ))
+SIGMA  =  0.02         (Smearing value in eV; metals:0.2)
+NELM   =  40           (Max electronic SCF steps)
+NELMIN =  6            (Min electronic SCF steps)
+EDIFF  =  1E-06        (SCF energy convergence; in eV)
+ GGA  =  PS           (PBEsol exchange-correlation)
+ 
+Ionic Relaxation
+NSW    =  0          (Max ionic steps, (0 for energy calculation, band and dos))
+IBRION =  -1            (Algorithm: 0-MD; 1-Quasi-New; 2-CG ---- IBRION = 2  (-1 for energy calculation, band and dos ))
+ISIF   =  3            (Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 4-Shape/Ions)
+EDIFFG = -1E-02        (Ionic convergence; eV/AA)
+LORBIT=11
+NEDOS=3501
+
+
+##### vdW #####
+LVDW=.TRUE.
+#IVDW=11
+
+#SOC related tags:
+# LSORBIT=.TRUE.
+# SAXIS= 0 0 1
+# ISYM=0
+
+#### HSE ####
+#LHFCALC = .TRUE. 
+#AEXX   =  0.25        
+#HFSCREEN = 0.2         
+#ALGO = ALL # or Damped
+#TIME   =  0.4
