@@ -1,4 +1,4 @@
-# Neural Network Approach for ORR Activity Prediction
+# Few-Shot Learning in Screening Septuple-Atomic-Layer Supported Single-Atom Catalysts for Hydrogen Production
 
 ## Overview
 This repository contains the implementation of the machine learning approach described in our paper "Few-shot learning for screening 2D Ga2CoS4- x supported single-atom catalysts for hydrogen production" for predicting Hydrogen Evolution Reaction (HER) activity. The model uses a combination of convolutional and dense neural networks to predict HER activity based on material properties.
